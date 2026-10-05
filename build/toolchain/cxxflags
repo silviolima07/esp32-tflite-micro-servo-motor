@@ -1,0 +1,6 @@
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+"-specs=D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/specs/picolibc.specs"
+-fno-rtti

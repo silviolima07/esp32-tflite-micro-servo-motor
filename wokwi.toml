@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/esp32_tflite_micro_servo_motor.bin"
+elf = "build/esp32_tflite_micro_servo_motor.elf"

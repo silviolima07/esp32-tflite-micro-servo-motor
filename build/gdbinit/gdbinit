@@ -1,0 +1,2 @@
+source D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/gdbinit/symbols
+source D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/gdbinit/connect

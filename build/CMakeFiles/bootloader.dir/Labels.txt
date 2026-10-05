@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/CMakeFiles/bootloader
+D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/CMakeFiles/bootloader.rule
+D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/CMakeFiles/bootloader-complete.rule
+D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/EMBARCADOS/GITHUB/esp32-tflite-micro-servo-motor/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

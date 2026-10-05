@@ -187,6 +187,4 @@ Este repositório foi desenvolvido para fins acadêmicos e de demonstração. O 
 
 A combinação de processamento de voz, redes neurais leves e hardware embarcado demonstra como é possível trazer inteligência artificial para dispositivos de baixo custo e baixa potência. Este repositório serve como referência prática para aplicações de reconhecimento de comandos por voz em microcontroladores ESP32.
 
----
-
-Se quiser, também posso gerar uma versão mais “premium” do README com badges, tabela de requisitos, diagramas em ASCII e um bloco de screenshots organizado por seções. 
+--- 

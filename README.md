@@ -1,6 +1,6 @@
 # TinyML - Reconhecimento de Comandos de Voz com ESP32-S3
 
-![Visão geral do projeto](RECONHECIMENTO_COMANDO_VOZ.png)
+![Visão geral do projeto](IMG/comando_voz.png)
 
 Este projeto implementa um sistema embarcado de reconhecimento de comandos de voz usando um microcontrolador ESP32-S3, TensorFlow Lite Micro e um servo motor. O objetivo é classificar comandos como `ABRIR_PORTA` e `FECHAR_PORTA` a partir de áudio, processar os dados em tempo real e acionar um mecanismo mecânico em resposta à inferência.
 

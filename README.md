@@ -159,6 +159,7 @@ idf.py -p /dev/ttyUSB0 monitor
 
 6. Escolha um comando de áudio no menu e observe a classificação e o acionamento do servo.
 
+## Problemas encontrados e Soluções aplicadas
 ![Problemas encontrados e resolvidos](IMG/slide7.png)
 
 ## Treinamento do modelo

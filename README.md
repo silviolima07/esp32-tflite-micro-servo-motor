@@ -11,6 +11,7 @@ O sistema combina:
 - execução em hardware embarcado;
 - acionamento de um servo motor para abrir ou fechar uma porta simulada.
 
+## Foram realizados 6 testes com áudios novos
 ![Resultado da classificação](Resultado%20da%20Classifica%C3%A7%C3%A3o.png)
 
 ## Visão geral do sistema

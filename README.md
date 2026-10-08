@@ -185,8 +185,5 @@ Este projeto pode ser usado como base para:
 
 Este repositório foi desenvolvido para fins acadêmicos e de demonstração. O projeto utiliza componentes do ecossistema ESP-IDF, TensorFlow Lite Micro e bibliotecas do Espressif.
 
-## Observações finais
-
-A combinação de processamento de voz, redes neurais leves e hardware embarcado demonstra como é possível trazer inteligência artificial para dispositivos de baixo custo e baixa potência. Es[...]
 
 --- 

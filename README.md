@@ -24,9 +24,7 @@ A solução foi desenvolvida para demonstrar o uso de TinyML em dispositivos mic
 5. O resultado é comparado com a classe real.
 6. O servo motor executa a ação correspondente.
 
-## Arquitetura
-
-![Arquitetura do processamento](IMG/Pre-processamento.png)
+## Estrutura
 
 O projeto está organizado em módulos que separaram os principais blocos:
 - `main/` — código principal do firmware e integração com o modelo;

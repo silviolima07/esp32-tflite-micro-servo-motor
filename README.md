@@ -2,7 +2,7 @@
 
 ![Visão geral do projeto](IMG/comando_voz.png)
 
-Este projeto implementa um sistema embarcado de reconhecimento de comandos de voz usando um microcontrolador ESP32-S3, TensorFlow Lite Micro e um servo motor. O objetivo é classificar comandos com[...]
+Este projeto implementa um sistema embarcado de reconhecimento de comandos de voz usando um microcontrolador ESP32-S3, TensorFlow Lite Micro e um servo motor. O objetivo é classificar comandos de voz com um modelo tflite.
 
 O sistema combina:
 - captura e pré-processamento de áudio;

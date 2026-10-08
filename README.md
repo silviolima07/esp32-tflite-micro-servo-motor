@@ -2,7 +2,7 @@
 
 ![Visão geral do projeto](IMG/comando_voz.png)
 
-Este projeto implementa um sistema embarcado de reconhecimento de comandos de voz usando um microcontrolador ESP32-S3, TensorFlow Lite Micro e um servo motor. O objetivo é classificar comandos como `ABRIR_PORTA` e `FECHAR_PORTA` a partir de áudio, processar os dados em tempo real e acionar um mecanismo mecânico em resposta à inferência.
+Este projeto implementa um sistema embarcado de reconhecimento de comandos de voz usando um microcontrolador ESP32-S3, TensorFlow Lite Micro e um servo motor. O objetivo é classificar comandos com[...]
 
 O sistema combina:
 - captura e pré-processamento de áudio;
@@ -55,17 +55,17 @@ A lógica de decisão é simples e direta:
 
 ## Pré-processamento e MFCC
 
-A etapa de extração de características é essencial para o bom desempenho do modelo. O sinal é recortado para capturar apenas a parte relevante da fala e a sequência de coeficientes MFCC é convertida em um tensor de entrada para a rede.
+A etapa de extração de características é essencial para o bom desempenho do modelo. O sinal é recortado para capturar apenas a parte relevante da fala e a sequência de coeficientes MFCC é c[...]
 
 ![Cálculo MFCC](IMG/Calculo_mfcc.png)
 
 ![Pré-processamento 2](IMG/Pre-processamento_2.png)
 
-Os arquivos de áudio utilizados para validação e testes são armazenados no diretório `main/audio/`, e o processamento é feito em C/C++ para manter a execução leve e compatível com o ESP32-S3.
+Os arquivos de áudio utilizados para validação e testes são armazenados no diretório `main/audio/`, e o processamento é feito em C/C++ para manter a execução leve e compatível com o ESP32[...]
 
 ## Inferência no ESP32-S3
 
-O modelo é executado em formato quantizado INT8, tornando a inferência viável em hardware restrito. Isso reduz o consumo de memória e aumenta a velocidade de processamento, permitindo que o microcontrolador execute a rede neural localmente.
+O modelo é executado em formato quantizado INT8, tornando a inferência viável em hardware restrito. Isso reduz o consumo de memória e aumenta a velocidade de processamento, permitindo que o mi[...]
 
 ![Inferência](IMG/INFERENCIA.png)
 
@@ -159,6 +159,8 @@ idf.py -p /dev/ttyUSB0 monitor
 
 6. Escolha um comando de áudio no menu e observe a classificação e o acionamento do servo.
 
+![Problemas encontrados e resolvidos](IMG/slide7.png)
+
 ## Treinamento do modelo
 
 A parte de treinamento foi desenvolvida em notebooks localizados em `NOTEBOOKS/`. Esses arquivos mostram:
@@ -185,6 +187,6 @@ Este repositório foi desenvolvido para fins acadêmicos e de demonstração. O 
 
 ## Observações finais
 
-A combinação de processamento de voz, redes neurais leves e hardware embarcado demonstra como é possível trazer inteligência artificial para dispositivos de baixo custo e baixa potência. Este repositório serve como referência prática para aplicações de reconhecimento de comandos por voz em microcontroladores ESP32.
+A combinação de processamento de voz, redes neurais leves e hardware embarcado demonstra como é possível trazer inteligência artificial para dispositivos de baixo custo e baixa potência. Es[...]
 
 --- 
